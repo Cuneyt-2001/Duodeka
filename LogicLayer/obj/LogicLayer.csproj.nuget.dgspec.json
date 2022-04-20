@@ -1,0 +1,239 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\LogicLayer\\LogicLayer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\DataInterfaces\\DataInterfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\DataInterfaces\\DataInterfaces.csproj",
+        "projectName": "DataInterfaces",
+        "projectPath": "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\DataInterfaces\\DataInterfaces.csproj",
+        "packagesPath": "C:\\Users\\Cuneyt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\DataInterfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cuneyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\DataLayer\\DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\DataLayer\\DataLayer.csproj",
+        "projectName": "DataLayer",
+        "projectPath": "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\DataLayer\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\Cuneyt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cuneyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\DataInterfaces\\DataInterfaces.csproj": {
+                "projectPath": "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\DataInterfaces\\DataInterfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\LogicInterfaces\\LogicInterfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\LogicInterfaces\\LogicInterfaces.csproj",
+        "projectName": "LogicInterfaces",
+        "projectPath": "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\LogicInterfaces\\LogicInterfaces.csproj",
+        "packagesPath": "C:\\Users\\Cuneyt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\LogicInterfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cuneyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\DataInterfaces\\DataInterfaces.csproj": {
+                "projectPath": "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\DataInterfaces\\DataInterfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\LogicLayer\\LogicLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\LogicLayer\\LogicLayer.csproj",
+        "projectName": "LogicLayer",
+        "projectPath": "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\LogicLayer\\LogicLayer.csproj",
+        "packagesPath": "C:\\Users\\Cuneyt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\LogicLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cuneyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\DataLayer\\DataLayer.csproj": {
+                "projectPath": "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\DataLayer\\DataLayer.csproj"
+              },
+              "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\LogicInterfaces\\LogicInterfaces.csproj": {
+                "projectPath": "C:\\Users\\Cuneyt\\source\\repos\\Duodeka\\Duodeka\\LogicInterfaces\\LogicInterfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
